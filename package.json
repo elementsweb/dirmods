@@ -1,0 +1,33 @@
+{
+  "name": "@j154004/dirmods",
+  "version": "1.0.0-alpha.1",
+  "description": "Node.js command line utility to make modifications to a number of directories in Linux",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js src",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementsweb/dirmods.git"
+  },
+  "keywords": [
+    "dirmods"
+  ],
+  "author": "elementsweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elementsweb/dirmods/issues"
+  },
+  "homepage": "https://github.com/elementsweb/dirmods#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "junk": "^2.1.0",
+    "simple-git": "^1.80.1",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
