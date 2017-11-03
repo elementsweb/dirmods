@@ -1,6 +1,6 @@
 {
   "name": "@j154004/dirmods",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Node.js command line utility to make modifications to a number of directories in Linux",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,9 @@
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-config-google": "^0.9.1"
-  }
+  },
+  "bin": {
+    "dirmods": "./index.js"
+  },
+  "preferGlobal": true
 }

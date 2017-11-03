@@ -1,0 +1,7 @@
+# CHANGELOG
+
+## 1.0.0-alpha.2
+Made module executable from command line.
+
+## 1.0.0-alpha.1
+First release providing the `config` command.
